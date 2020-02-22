@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">QuizBox</string>
+    <string name="email_regx">^[\\w-\\+]+(\\.[\\w]+)*@[\\w-]+(\\.[\\w]+)*(\\.[a-z]{2,})$</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+
+    <string name="hometitle">QuizBox</string>
+    <string name="Option">more</string>
+    <string name="Email">Enter username</string>
+    <string name="password">Enter password</string>
+    <string name="NewUser">New User? Register Here</string>
+    <string name="LogIn">Let\'s get quizzed</string>
+    <string name="title_activity_sign_up_window">SignUp_window</string>
+    <string name="registration">Register for the challenge…!!</string>
+    <string name="FirstName">Enter name</string>
+    <string name="LastName">LastName</string>
+    <string name="email_address">Enter a valid email address</string>
+    <string name="enter_password">Enter a valid password</string>
+    <string name="confirm_password">Retype Password</string>
+    <string name="phone">Enter your Mobile Number</string>
+    <string name="SignupBtn">Submit User</string>
+
+    <string name="title_activity_admin_page">AdminPage</string>
+    <string name="action1_settings">About</string>
+    <string name="Add_ques">Add Question</string>
+    <string name="update_ques">Update Question</string>
+    <string name="delete_ques">Delete Question</string>
+
+
+    <string name="Gk">General Knowledge</string>
+    <string name="sports">Sports</string>
+    <string name="CompSci">Computer Science</string>
+    <string name="selectCategory">Select category to start quiz</string>
+
+    <string name="nextQue">Next</string>
+    <string name="submit">Submit</string>
+    <string name="title_activity_ques_and_ans">quesAndAns</string>
+
+
+    <string name="enter_ques">Enter new question here</string>
+    <string name="first_opt">Enter option 1</string>
+    <string name="second_opt">Enter option 2</string>
+    <string name="third_opt">Enter option 3</string>
+    <string name="correct_opt">Enter correct answer</string>
+    <string name="enter_btn">Submit entry</string>
+
+
+    <string name="menu_editProfile">Edit profile</string>
+    <string name="menu_quizResult">Previous Results</string>
+    <string name="menu_rankings">Rankings</string>
+    <string name="action_settings">Logout</string>
+
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="Leaderboard">Leaderboard</string>
+    <string name="Todo">TODO</string>
+    <string name="edit_profile">Edit Profile</string>
+
+    <string-array name="quiztype">
+        <item>General Knowledge</item>
+        <item>Sports</item>
+        <item>Computer Science</item>
+    </string-array>
+
+
+</resources>

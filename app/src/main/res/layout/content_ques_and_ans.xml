@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frame2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".quesAndAns"
+    tools:showIn="@layout/activity_ques_and_ans">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/id_timer"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="60dp"
+        android:fontFamily="serif-monospace"
+        android:stateListAnimator="@android:anim/fade_in"
+        android:textAlignment="center"
+        android:textSize="48sp" />
+
+    <TextView
+        android:id="@+id/id_score_1"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="100dp"
+        android:fontFamily="serif-monospace"
+        android:stateListAnimator="@android:anim/fade_in"
+        android:textAlignment="center"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/id_ques"
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="serif-monospace"
+        android:inputType="textMultiLine"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="165dp">
+
+        <RadioButton
+            android:id="@+id/id_rb1"
+            android:layout_width="247dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="100dp"
+            android:inputType="textMultiLine"
+            android:checked="false"
+            android:fontFamily="serif-monospace"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/id_rb2"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="10dp"
+            android:inputType="textMultiLine"
+            android:layout_marginEnd="100dp"
+            android:fontFamily="serif-monospace"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/id_rb3"
+            android:layout_width="247dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="100dp"
+            android:inputType="textMultiLine"
+            android:fontFamily="serif-monospace"
+            android:textSize="20sp" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/id_nextQue_gen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="120dp"
+        android:background="@color/colorPrimary"
+        android:backgroundTint="@color/colorPrimary"
+        android:fontFamily="serif-monospace"
+        android:text="@string/nextQue"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/id_submitAns_gen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="serif-monospace"
+        android:layout_marginEnd="120dp"
+        android:background="@color/colorPrimary"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="@string/submit"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+</LinearLayout>
+</ScrollView>

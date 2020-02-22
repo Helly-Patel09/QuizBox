@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".QandA">
+
+    <TextView
+        android:id="@+id/id_timer"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="60dp"
+        android:fontFamily="serif-monospace"
+        android:stateListAnimator="@android:anim/fade_in"
+        android:textAlignment="center"
+        android:textSize="48sp" />
+
+    <TextView
+        android:id="@+id/id_score"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="100dp"
+        android:fontFamily="serif-monospace"
+        android:stateListAnimator="@android:anim/fade_in"
+        android:textAlignment="center"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/id_ques"
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="serif-monospace"
+        android:inputType="textMultiLine"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <RadioButton
+        android:id="@+id/id_rb1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="100dp"
+        android:checked="false"
+        android:clickable="false"
+        android:fontFamily="serif-monospace"
+        android:textSize="20sp" />
+
+    <RadioButton
+        android:id="@+id/id_rb2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="100dp"
+        android:fontFamily="serif-monospace"
+        android:textSize="20sp" />
+
+    <RadioButton
+        android:id="@+id/id_rb3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="100dp"
+        android:fontFamily="serif-monospace"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/id_nextQue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="120dp"
+        android:fontFamily="serif-monospace"
+        android:background="@color/colorPrimary"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="@string/nextQue"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/id_submitAns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="serif-monospace"
+        android:layout_marginEnd="120dp"
+        android:background="@color/colorPrimary"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="@string/submit"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+</LinearLayout>

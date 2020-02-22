@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "544028613073",
+    "firebase_url": "https://quiztracker-f188c.firebaseio.com",
+    "project_id": "quiztracker-f188c",
+    "storage_bucket": "quiztracker-f188c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544028613073:android:3b3f4048bb5bd65c",
+        "android_client_info": {
+          "package_name": "com.example.quizbox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544028613073-huf0tb2dkvmuvqa4b35btvqk2mb4ci42.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.quizbox",
+            "certificate_hash": "7b7099703509a4c4e514784e801ff89571dfc59e"
+          }
+        },
+        {
+          "client_id": "544028613073-7vqn9tp7iglhpdujf3v29u3c27ncfs72.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgPrQES0JH3PjwvDB-4GXOgPkXqwFpflQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544028613073-7vqn9tp7iglhpdujf3v29u3c27ncfs72.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Add_question">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/addQues_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <Spinner
+        android:id="@+id/id_spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="80dp"
+        android:entries="@array/quiztype"></Spinner>
+
+    <EditText
+        android:id="@+id/id_enterQues"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:hint="@string/enter_ques"
+        android:autofillHints=""
+        android:inputType="textMultiLine"
+
+        android:backgroundTint="@color/blackFont"
+        android:fontFamily="serif-monospace"
+        android:textColorHint="@color/colorPrimary"/>
+
+    <EditText
+        android:id="@+id/id_option1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="80dp"
+        android:hint="@string/first_opt"
+        android:inputType=""
+        android:autofillHints=""
+        android:backgroundTint="@color/blackFont"
+        android:fontFamily="serif-monospace"
+        android:textColorHint="@color/colorPrimary"/>
+
+    <EditText
+        android:id="@+id/id_option2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="80dp"
+        android:hint="@string/second_opt"
+        android:inputType=""
+        android:autofillHints=""
+        android:backgroundTint="@color/blackFont"
+        android:fontFamily="serif-monospace"
+        android:textColorHint="@color/colorPrimary"/>
+
+    <EditText
+        android:id="@+id/id_option3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="80dp"
+        android:hint="@string/third_opt"
+        android:inputType=""
+        android:autofillHints=""
+        android:backgroundTint="@color/blackFont"
+        android:fontFamily="serif-monospace"
+        android:textColorHint="@color/colorPrimary"/>
+
+
+    <EditText
+        android:id="@+id/id_correctAns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="40dp"
+        android:hint="@string/correct_opt"
+        android:inputType=""
+        android:autofillHints=""
+        android:backgroundTint="@color/blackFont"
+    android:fontFamily="serif-monospace"
+    android:textColorHint="@color/colorPrimary"/>
+
+    <Button
+        android:id="@+id/id_submitEntry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/enter_btn"
+        android:textSize="18sp" />
+
+
+
+</LinearLayout>
